@@ -46,7 +46,8 @@ Este proyecto es un conversor de monedas en Java que utiliza la API de tipos de 
 
 ## clases-y-métodos
 Clase: Monedas
-   Esta clase representa las monedas y sus valores.
+
+Esta clase representa las monedas y sus valores.
 
 Atributos:
 
@@ -62,13 +63,15 @@ Métodos:
     String formatoPersonalizado(): Devuelve una cadena con el resultado de la conversión.
     
 Clase: Conversiones
+
 Esta clase contiene la lógica para realizar las conversiones de moneda.
 
 Métodos:
   Monedas ConversorMonedas(String moneda, String monedacambio, double monto): Realiza la conversión entre las monedas especificadas y devuelve un objeto Monedas.
 
 Clase: Principal
-  Esta clase contiene el método main y la lógica de la interfaz de usuario.
+
+Esta clase contiene el método main y la lógica de la interfaz de usuario.
 
 Método:
 public static void main(String[] args): Ejecuta el programa y permite a los usuarios seleccionar las opciones de conversión.
