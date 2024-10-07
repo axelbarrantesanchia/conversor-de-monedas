@@ -61,6 +61,7 @@ String toCurrency
 
 Métodos:
     String formatoPersonalizado(): Devuelve una cadena con el resultado de la conversión.
+
     
 Clase: Conversiones
 
@@ -68,6 +69,7 @@ Esta clase contiene la lógica para realizar las conversiones de moneda.
 
 Métodos:
   Monedas ConversorMonedas(String moneda, String monedacambio, double monto): Realiza la conversión entre las monedas especificadas y devuelve un objeto Monedas.
+
 
 Clase: Principal
 
